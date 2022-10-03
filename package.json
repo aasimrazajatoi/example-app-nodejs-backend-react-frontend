@@ -3,6 +3,7 @@
   "scripts": {
     "build": "webpack --mode development --entry ./src/client/index.js --output ./static/bundle.js",
     "start": "node src/server/app.js"
+    "test": "jest"
   },
   "dependencies": {
     "express": "^4.17.1"
