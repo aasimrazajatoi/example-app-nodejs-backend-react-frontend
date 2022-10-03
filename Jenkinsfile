@@ -5,7 +5,7 @@ pipeline {
         stage ("install dependencies") {
             steps {
                 sh 'npm install'
-                sh 'npm install jest –save-dev'
+                sh 'npm install jest'
             }
         }
         stage ("build") {
